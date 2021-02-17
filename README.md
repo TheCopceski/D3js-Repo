@@ -1,5 +1,9 @@
 # D3js-Repo
-Graphs made using the D3.js library!
+Graphs made using the D3.js library!  
+
+Versions used:  
+d3.js v6  
+d3-scale v3
 
 Previews:
 Stacked Bar Chart
