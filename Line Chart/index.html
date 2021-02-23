@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="end">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>D3.js</title>
+    <style>
+        .container {
+            width: 740px;
+            height: 583px;
+            background-color:rgb(173, 173, 173);
+            position: relative;
+        }
+        .tick line {
+            stroke:#EEF1F1;
+            shape-rendering: crispEdges;
+        }
+        .tick text {
+            font-family: Inter;
+            font-size: 12px;
+            line-height: 16px;
+            color: #5E6E6E
+        }
+        .chart {
+            width: 640px;
+            height: 483px;
+            background-color:white;
+            border-radius: 4px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .text-style {
+            position: absolute;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            fill: #5E6E6E;
+        }
+        .line-style {
+            stroke: #F4F6F6;
+            stroke-width:1px;
+        }
+        .tooltip-value {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            fill: #FFFFFF;
+        }
+
+    </style>
+    <script src="https://d3js.org/d3.v6.min.js" defer></script>
+    <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
+    <script src = "https://d3js.org/d3-axis.v1.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="chart"></div>
+    </div>
+</body>
+</html>
